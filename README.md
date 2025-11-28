@@ -89,7 +89,7 @@ Other [CLI](https://ktlint.github.io/#getting-started) arguments are also suppor
 You can also use Coursier to get the list of options.
 
 ```
-cs launch com.pinterest:ktlint:1.8.0 -M com.pinterest.ktlint.Main -- --help
+cs launch com.pinterest.ktlint:ktlint-cli:1.8.0 -M com.pinterest.ktlint.Main -- --help
 ```
 
 ### Notes about the `pmd` hook
