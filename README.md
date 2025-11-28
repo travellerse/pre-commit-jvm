@@ -20,8 +20,8 @@ pre-commit-jvm requires the following to run:
 example `.pre-commit-config.yaml`:
 
 ```yaml
-- repo: https://github.com/dustinsand/pre-commit-jvm
-  rev: vX.X.X
+- repo: https://github.com/travellerse/pre-commit-jvm
+  rev: <hash-or-tag>
   hooks:
     - id: detekt
       args: [--config, detekt-config.yml]
