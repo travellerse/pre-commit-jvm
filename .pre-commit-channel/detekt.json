@@ -1,9 +1,9 @@
 {
-  "mainClass" : "io.gitlab.arturbosch.detekt.cli.Main",
+  "mainClass": "io.gitlab.arturbosch.detekt.cli.Main",
   "repositories": [
     "central"
   ],
   "dependencies": [
-    "io.gitlab.arturbosch.detekt:detekt-cli:1.23.1"
+    "io.gitlab.arturbosch.detekt:detekt-cli:1.23.8"
   ]
 }

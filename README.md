@@ -9,8 +9,8 @@ A collection of git hooks for the JVM to be used with the [pre-commit framework]
 
 pre-commit-jvm requires the following to run:
 
-  * [pre-commit(2.8+)](http://pre-commit.com)
-  * [Coursier](https://get-coursier.io/)
+* [pre-commit(2.8+)](http://pre-commit.com)
+* [Coursier](https://get-coursier.io/)
 
 ## Install
 
@@ -63,15 +63,16 @@ Minimum required arguments for the hook:
       args: [--replace, --set-exit-if-changed]
 ```
 
-Other [CLI](https://github.com/google/google-java-format) arguments are also supported. 
+Other [CLI](https://github.com/google/google-java-format) arguments are also supported.
 
 You can also use Coursier to get the list of options.
+
 ```
 [JDK 8]
-cs launch com.google.googlejavaformat:google-java-format:1.7 -- --help
+cs launch com.google.googlejavaformat:google-java-format:1.29.0 -- --help
 
 [JDK 11+]
-cs launch com.google.googlejavaformat:google-java-format:1.9 -- --help
+cs launch com.google.googlejavaformat:google-java-format:1.29.0 -- --help
 ```
 
 ### Notes about the `ktlint` hook
@@ -83,11 +84,12 @@ Minimum required arguments for the hook:
       args: [--format]
 ```
 
-Other [CLI](https://ktlint.github.io/#getting-started) arguments are also supported. 
+Other [CLI](https://ktlint.github.io/#getting-started) arguments are also supported.
 
 You can also use Coursier to get the list of options.
+
 ```
-cs launch com.pinterest:ktlint:0.39.0 -M com.pinterest.ktlint.Main -- --help
+cs launch com.pinterest:ktlint:1.8.0 -M com.pinterest.ktlint.Main -- --help
 ```
 
 ### Notes about the `pmd` hook
@@ -97,7 +99,7 @@ Required arguments for the hook:
 | Argument | Description |
 | -------- | -------------------------------------------- |
 | dir | Root directory for sources.                       |
-| rulesets | Comma separated list of ruleset names to use.| 
+| rulesets | Comma separated list of ruleset names to use.|
 
 ```yaml
     - id: pmd
