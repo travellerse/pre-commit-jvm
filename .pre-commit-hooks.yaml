@@ -24,8 +24,15 @@
 - id: ktlint
   name: ktlint
   description: "Runs the ktlint linter and formatter on Kotlin source files."
+  language: system
+  entry: cs launch com.pinterest.ktlint:ktlint-cli:1.8.0 -M com.pinterest.ktlint.Main --
+  files: \.kt$
+  require_serial: true
+- id: ktfmt
+  name: ktfmt
+  description: "Runs the ktfmt formatter on Kotlin source files."
   language: coursier
-  entry: ktlint
+  entry: ktfmt
   files: \.kt$
   require_serial: true
 - id: pmd
