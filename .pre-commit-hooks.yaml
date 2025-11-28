@@ -25,7 +25,7 @@
   name: ktlint
   description: "Runs the ktlint linter and formatter on Kotlin source files."
   language: coursier
-  entry: ktlint -J--add-opens=java.base/java.lang=ALL-UNNAMED
+  entry: ktlint
   files: \.kt$
   require_serial: true
 - id: pmd
