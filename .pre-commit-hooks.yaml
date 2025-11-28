@@ -28,13 +28,13 @@
 #   entry: cs launch com.pinterest.ktlint:ktlint-cli:1.8.0 -M com.pinterest.ktlint.Main --
 #   files: \.kt$
 #   require_serial: true
-# - id: ktfmt
-#   name: ktfmt
-#   description: "Runs the ktfmt formatter on Kotlin source files."
-#   language: coursier
-#   entry: ktfmt
-#   files: \.kt$
-#   require_serial: true
+- id: ktfmt
+  name: ktfmt
+  description: "Runs the ktfmt formatter on Kotlin source files."
+  language: coursier
+  entry: ktfmt
+  files: \.kt$
+  require_serial: true
 - id: pmd
   name: PMD
   description: "Runs the PMD static code analyzer on Java source files."

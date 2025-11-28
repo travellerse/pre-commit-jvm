@@ -1,0 +1,10 @@
+{
+    "mainClass": "com.facebook.ktfmt.cli.Main?",
+    "launcherType": "assembly",
+    "repositories": [
+        "central"
+    ],
+    "dependencies": [
+        "com.facebook:ktfmt:0.59"
+    ]
+}
