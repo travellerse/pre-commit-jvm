@@ -1,6 +1,6 @@
 {
   "mainClass": "com.pinterest.ktlint.Main",
-  "launcherType": "assembly",
+  "launcherType": "bootstrap",
   "repositories": [
     "central"
   ],
